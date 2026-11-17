@@ -4,16 +4,18 @@
 <body><header><a class="brand" href="index.html">Hoverline Apps</a><nav><a href="kestrel-player.html">Kestrel IPTV Player</a><a href="songbird-prompter.html">Songbird Prompter</a><a href="privacy.html">Privacy</a></nav></header>
 <main>
 <h1>Privacy Policy for Songbird Prompter</h1>
-<p class="muted"><em>Last updated: November 16, 2026</em></p>
+<p class="muted"><em>Last updated: November 17, 2026</em></p>
 <p>Songbird Prompter (&ldquo;the app&rdquo;, listed on Google Play as &ldquo;Songbird: Teleprompter &amp; Video&rdquo;) is published by Hoverline Apps.</p>
 <h2>What stays on your device</h2><ul>
 <li><strong>Camera and microphone</strong>: used to show the camera behind your script and to record when you press Record. Videos are saved to your phone&rsquo;s gallery and are not uploaded.</li>
 <li><strong>Scripts and settings</strong>: stored in the app on your phone. If Android backup is on, Android may include them in your Google account backup.</li>
 <li><strong>On-phone captions</strong>: the &ldquo;Standard&rdquo; and &ldquo;More accurate&rdquo; caption options turn speech into text on your phone. A speech model is downloaded once; your audio is not uploaded.</li>
+<li><strong>Script import</strong>: files, pasted text and photos you import are read on your phone. Photos of text are read on your phone by Google&rsquo;s ML Kit unless you choose &ldquo;Read with AI&rdquo; (see below). A web link you import is downloaded by the app directly from that site, or from Google Docs, Drive or Dropbox for document links, not through our server.</li>
+<li><strong>Phone remote</strong>: when you turn it on, the app runs a small web page on your phone that only devices on the same local network (your Wi&#8209;Fi or the phone&rsquo;s hotspot) can open, and only with the secret link in the QR code. The remote phone sees the prompter&rsquo;s current line, timer and speed and sends button presses. Nothing goes through our server or the internet, and it stops when you leave the prompter.</li>
 <li><strong>Floating prompter</strong>: shows your script over other apps. It only draws its own window and can&rsquo;t see, read or record the other app.</li></ul>
 <h2>Features that use the internet (optional)</h2><ul>
 <li><strong>Online captions</strong>: when you choose &ldquo;Online (best)&rdquo;, the app sends the recording&rsquo;s sound (compressed, without the picture) and the script you chose to match against to our server. The server uses Google&rsquo;s Gemini model on Google Cloud (Vertex AI) to write the captions and sends them back. The sound and text are not stored after the request.</li>
-<li><strong>AI script help</strong>: the text you ask about, and any topic you type or speak, is sent to our server and to Google&rsquo;s Gemini model to write the suggestion. It is not stored after the request.</li>
+<li><strong>AI script help</strong>: the text you ask about, and any topic you type or speak, is sent to our server and to Google&rsquo;s Gemini model to write the suggestion. &ldquo;Make it a script with AI&rdquo; sends imported text the same way, and &ldquo;Read with AI&rdquo; sends a photo of text (shrunk) to copy out its words. Nothing is stored after the request.</li>
 <li><strong>Voice pacing and voice input</strong>: use your phone&rsquo;s speech recognizer. Where the phone has an offline model for your language, speech stays on the device; otherwise the phone&rsquo;s speech service (usually Google&rsquo;s) processes it under that provider&rsquo;s privacy terms. The app keeps no audio or transcript from voice pacing.</li></ul>
 <h2>Usage counts</h2>
 <p>To apply the free and monthly limits for online captions and AI help, the app signs in anonymously with Firebase Authentication. Our server stores a random user ID with how many requests it has used and when. No name, email or phone number is linked to it. Uninstalling the app or clearing its data starts a new ID. To have usage counts deleted, email us.</p>
