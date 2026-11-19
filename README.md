@@ -9,6 +9,7 @@ Website for Hoverline Apps, published with GitHub Pages: https://mortez28.github
 | `privacy.html` | Kestrel IPTV Player privacy policy (linked from its Play listing; keep the URL) |
 | `songbird-prompter.html` | Songbird Prompter: features, Free vs Premium |
 | `songbird-privacy.html` | Songbird Prompter privacy policy (use this URL in Play Console and the app) |
+| `songbird-terms.html` | Songbird Prompter terms of service (Play Console Terms of Service URL) |
 
 Plain HTML and one `style.css`; no build step. Push to `main` and Pages updates.
 
